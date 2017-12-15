@@ -1,74 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
   <head>
+
     <meta charset="UTF-8">
-    <title>Kayvan's Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Kayvan's Portfolio</title>
+
+  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+   
+    <link rel="stylesheet" href="assets/css/styles.css" media="screen">
+
   </head>
+
   <body>
+
     <nav class="navbar navbar-default">
-      <div class="container">
-        <div class="navbar-header">
-         
+      <div class="container-fluid navbar-custom">
 
-           <h2>Kayvan Rahmani</h2>
-          </a>
+        <div class="row">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div class="col-xs-12 phone-nav">
+              <a class="navbar-brand" href="#" id="logo">Kayvan Rahmani</a>
+            </div>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right navbar-right-custom">
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="index.html">About</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
         </div>
-        <floater>
-        
-          <ul class="nav navbar-nav" id="navle">
-            <li><a href="index.html" class="active">About</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-      </floater>
-      </div>
+      </div><!-- /.container-fluid -->
     </nav>
+    <!-- End of navbar -->
 
-    <div class="container wrapper">
-      <section class="row">
-        <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-          <div class="well well-lg">
-            <h3>About Me</h3>
-            <hr>
-            <div class="row">
-              <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-             <a data-flickr-embed="true"  href="https://www.flickr.com/photos/158796339@N03/37026544715/in/dateposted-public/" title="Photo on 9-4-17 at 12.38 PM"><img src="https://farm5.staticflickr.com/4435/37026544715_081a0be381_q.jpg" width="175" height="200" alt="Photo on 9-4-17 at 12.38 PM"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-              </div>
-              <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
-                <p class="para text-justify">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pharetra velit ut mi venenatis, quis commodo lorem tempor. Curabitur varius ante lectus, id condimentum velit fermentum id. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi sapien metus, commodo id massa eget, sodales gravida arcu. Mauris in eros sem. Fusce ornare porttitor neque at lacinia. Ut mollis mauris elit, quis cursus ligula porta quis. Vestibulum pulvinar ante vitae leo vehicula, sed sodales ipsum bibendum. Phasellus vitae luctus ligula. Nunc id auctor nulla.</p>
-              </div>
-            </div>
+    <!-- Start of content wrap -->
+    <div class="wrap">
+      <div class="container">
+        <section class="row">
+          <div class="col-md-8">
+            <article class="about-me-content">
+              <h1 class="about-me-header">About Me</h1>
+              <hr class="about-me-hr"/>
+              <img src="assets/imgs/natebeach.jpeg" alt="" id="nate-image"/>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <br />
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </article>
           </div>
-        </div>
-        <aside class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-          <div class="well well-lg">
-            <h3>Connect With Me</h3>
-            <hr>
-            <div class="text-center social-media">
-            <a href="https://github.com/kayrahmani24" target="_blank"><img src="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png" alt="Git hub logo" width="75" height="75"/>
-             </a>
-          
-            <a href="https://www.linkedin.com/in/kayvan-rahmani-0b0949135/" target="_blank"><img src="http://coblentzconst.com/yahoo_site_admin/assets/images/Linked_In_Logo.27394835_std.jpg" alt="LinkedIn logo" width="75" height="75"/> 
-            </a>
-            
-            <a href="https://stackexchange.com/users/11406032/kayvan-rahmani" target="_blank"><img src="https://cdn.sstatic.net/Sites/stackoverflow/company/img/logos/so/so-icon.svg?v=6e4af45f4d66" alt="Stack Overflow Logo" width="75" height="75"/> 
-            </a>  
-            </div>
+          <div class="col-md-4">
+
+            <!-- Start of Connect With Me Area -->
+            <section id="connect-with-me-area">
+              <div class="connect-with-me-content">
+                <h1 class="connect-with-me-header">Connect With Me</h1>
+                <hr />
+                <div id="images">
+                 <a href="https://github.com/kayrahmani24" target="_blank"><img src="assets/imgs/github.png" alt="" class="connect-with-me-photo"></a>
+                 
+
+                  <a href="https://www.linkedin.com/in/kayvan-rahmani-0b0949135/" target="_blank"><img src="assets/imgs/linkedin.png" alt="" class="connect-with-me-photo"></a>
+                  
+                  <a href="https://stackexchange.com/users/11406032/kayvan-rahmani" target="_blank"><img src="assets/imgs/stackover2.png" alt="" class="connect-with-me-photo"></a>
+                </div>
+              </div>
+            </section>
+           
+
           </div>
-        </aside>
-      </section>
-    </div>
-    <footer>
-      
-        &copy; 2017 Kayvan Rahmani
+        </section>
       </div>
+    </div>
+ 
+    <footer class="footer">
+      <div class="two-toned-footer-color"></div>
+      <p class="text-muted text-muted-footer text-center">
+        &copy; Copyright 2017 Kayvan
+      </p>
     </footer>
+  
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-
+ 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </body>
+
 </html>
